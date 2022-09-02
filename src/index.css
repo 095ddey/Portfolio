@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+.btn {
+  @apply font-display text-lg md:text-xl py-2 px-4 md:py-3 md:px-5 rounded-xl transition transform duration-300  hover:-translate-y-0.5 border-2;
+}
+.btn-primary {
+  @apply bg-green text-dark font-semibold hover:bg-opacity-90 border-green;
+}
+.btn-alt {
+  @apply bg-dark text-white text-opacity-80 border-green;
+}
+.heading {
+  @apply font-display text-center text-2xl mt-16 md:text-3xl;
+}
